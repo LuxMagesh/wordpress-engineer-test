@@ -10,8 +10,8 @@ add_action( 'init', 'ht_custom_post_custom_article' );
 function ht_custom_post_custom_article() {
     // Set the labels. This variable is used in the $args array
     $labels = array(
-        'Title'               => __( 'Title' ),
-        'Content'      => __( 'Article Content ' ),
+        'title'               => __( 'Title' ),
+        'content'      => __( 'Article Content ' ),
         'featured_image'     => 'Poster',
         'set_featured_image' => 'Add Poster'
     );
